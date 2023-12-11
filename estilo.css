@@ -1,0 +1,467 @@
+.root{
+    --cinza-1d: #1D1D1D;
+    --cinza-70: #707070;
+    --cinza-4d: #4D4D4D;
+    --dourado-b4: #B47D33; 
+    --dourado-b1: #B17E3B;
+    --dourado-a9: #A97339;
+    --branco: #FFFFFF;
+    --preto: #000;
+}
+
+.t1{
+    font-family: "IBM Plex Sans" !important;
+    font-weight: 600 !important;;
+    font-size: 25px !important;;
+    text-transform: uppercase;
+    color: #4D4D4D !important;;
+}
+
+.p{
+    font-family: "IBM Plex Sans" !important;
+    font-weight: lighter;
+    font-size: 13px;
+    color: #4D4D4D;
+}
+
+.titulo{
+    font-family: "IBM Plex Sans" !important;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #4D4D4D !important;
+}
+
+.menu{
+    font-family: "Lato" !important;
+    font-weight: 900;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    color: #4D4D4D !important;
+    text-decoration: none;
+}
+
+.menu:hover, .menu.active{
+    color: #B17E3B !important;
+}
+
+.submenu{
+    font-family: "IBM Plex Sans" !important;
+    font-size: 13px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+}
+
+.submenu:hover, .submenu.active{
+    color: #B47D33;
+}
+
+body{
+    max-width: 1280px;
+    min-width: 360px;
+    margin: auto;
+}
+
+#topo-absoluto{
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    max-width: 1280px;
+    min-width: 360px;
+}
+
+.hr-topo{
+    color: black !important;
+    border-color: black !important;
+    background-color: black !important;
+}
+
+#nav-topo-desktop{
+    margin-top: -15px;
+}
+
+
+#nav-topo-desktop a, footer nav a{
+    padding: 8px 16px;
+}
+
+.dropdown-menu{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.05);
+}
+
+#carousel-desktop .carousel-indicators{
+    /* top: 560px; */
+    bottom: 80px;
+}
+
+#carousel-desktop img{
+    max-height: 730px;
+}
+
+.carousel-indicators button{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+    opacity: 1 !important;
+    background-image: url("imagens/bolabanner1.svg");
+    background-position: center;
+    background-size: cover;
+    background-color: transparent !important;
+    margin-left: 0px !important;
+    margin-right: 20px !important;
+}
+
+.carousel-indicators button.active, .carousel-indicators button:hover{
+    background-image: url("imagens/bolabanner2.svg");
+}
+
+#carousel-desktop .carousel-caption{
+    /* top: 225px; */
+    bottom: 170px;
+    text-align: left;
+    width: 40%;
+}
+
+#carousel-mobile{
+    background-color: rgb(225, 225, 225);
+}
+
+#carousel-mobile img{
+    max-width: 400px;
+    max-height: 760px;
+    margin: auto;
+}
+
+#carousel-mobile .carousel-caption{
+    bottom: 130px !important;
+    text-align: left !important;
+    max-width: 400px;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    padding: 0px 30px;
+}
+
+#carousel-mobile .titulo-banner{
+    font-size: 30px;
+}
+
+#carousel-mobile .carousel-indicators{
+    max-width: 400px;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+    padding: 0px 30px;
+    bottom: 10px;
+}
+
+.carousel-observacao{
+    font-family: "Lato" !important;
+    font-weight: 300;
+    font-size: 13px !important;
+    text-transform: uppercase;
+    color: #B17E3B !important;
+    height: 20px;
+}
+
+.titulo-banner{
+    font-family: "IBM Plex Sans" !important;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+}
+
+.texto-banner{
+    font-family: "IBM Plex Sans" !important;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+
+.saber_mais{
+    border: 0px;
+    background-image: url("imagens/sabermais1.svg");
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 30px;
+}
+
+.saber_mais:hover{
+    border: 0px;
+    background-image: url("imagens/sabermais2.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.voltar{
+    border: 0px;
+    background-image: url("imagens/voltar1.svg");
+    background-position: center;
+    background-size: cover;
+    width: 132px;
+    height: 30px;
+}
+
+.voltar:hover{
+    border: 0px;
+    background-image: url("imagens/voltar2.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ver_mais{
+    border: 0px;
+    background-image: url("imagens/vermais.svg");
+    background-position: center;
+    background-size: cover;
+    width: 90px;
+    height: 26px;
+}
+
+.ver_mais:hover{
+    border: 0px;
+    background-image: url("imagens/vermais-cinza.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.caixa-branca{
+    position: relative;
+    top: -50px;
+    z-index: 10;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.20);
+}
+
+.caixa-branca img{
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.10);
+    width: 100%;
+    max-width: 311px;
+    max-height: 400px;
+}
+
+.caixa-branca .t1{
+    font-weight: normal;
+}
+
+.autor-imagem{
+    max-width: 500px !important;
+}
+
+.livro-imagem{
+    max-width: 500px !important;
+}
+
+.card{
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 0px;
+    border: 0px;
+}
+
+.titulo-card{
+    font-family: "IBM Plex Sans" !important;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    line-height: 23px;
+}
+
+.imagem-card img{
+    max-height: 430px !important;
+}
+
+.observacao-card{
+    font-family: "Lato" !important;
+    font-weight: bold;
+    font-size: 13px !important;
+    text-transform: uppercase;
+    color: #B17E3B !important;
+}
+
+main hr{
+    border: 1px solid rgb(68, 68, 68);
+    background-color: rgba(68, 68, 68);
+    color: rgba(68, 68, 68);
+}
+
+.hr_lancamento{
+    border: 1px solid #91520f;
+    background-color: #91520f;
+    color: #91520f;
+}
+
+.hr_imprensa{
+    border: 2px solid #979797;
+    background-color: #979797;
+    color: #979797;;
+}
+
+#seta-esq{
+    background-image: url("imagens/setaesquerda1.svg");
+    border: none;
+    background-color: white;
+    width: 17px; 
+    height: 30px;
+}
+
+#seta-esq:hover{
+    background-image: url("imagens/setaesquerda2.svg");
+}
+
+#seta-drt{
+    background-image: url("imagens/setadireita1.svg"); 
+    border: none;
+    background-color: white;
+    width: 17px; 
+    height: 30px;
+}
+
+#seta-drt:hover{
+    background-image: url("imagens/setadireita2.svg"); 
+}
+
+footer nav{
+    border-top: 2px solid rgb(180, 180, 180);
+    border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+footer nav .menu{
+    font-size: 16px !important;
+}
+
+footer .t1{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.titulo-campo{
+    font-family: "IBM Plex Sans" !important;
+    font-weight: medium;
+    font-size: 15px;
+    color: #B17E3B;
+    text-transform: uppercase;
+}
+
+.icone{
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.icone-instagram{
+    background-image: url("imagens/instagram1.svg");
+}
+
+.icone-instagram:hover{
+    background-image: url("imagens/instagram2.svg");
+}
+
+.icone-facebook{
+    background-image: url("imagens/facebook1.svg");
+}
+
+.icone-facebook:hover{
+    background-image: url("imagens/facebook2.svg");
+}
+
+.icone-linkedin{
+    background-image: url("imagens/linkedin1.svg");
+}
+
+.icone-linkedin:hover{
+    background-image: url("imagens/linkedin2.svg");
+}
+
+.dropdown-menu{
+    border: 0px;
+    border-radius: 0px;
+    padding: 20px 10px;
+}
+
+.dropdown-menu a:hover, .dropdown-menu:active, .dropdown-menu:focus{
+    background-color: white;
+}
+
+@media all and (max-width: 1150px){
+
+    #carousel-desktop .carousel-caption{
+        bottom: 130px;
+    }
+
+    #carousel-desktop .titulo-banner{
+        font-size: 30px;
+    }
+
+    #carousel-desktop .carousel-indicators{
+        bottom: 40px;
+    }
+}
+
+@media all and (max-width: 1030px){
+
+    #carousel-desktop .carousel-caption{
+        bottom: 120px;
+    }
+
+    #carousel-desktop .titulo-banner{
+        font-size: 22px;
+    }
+
+    #carousel-desktop .carousel-indicators{
+        bottom: 30px;
+    }
+}
+
+@media all and (max-width: 991px){
+
+    .caixa-branca{
+        top: 0px;
+    }
+
+    #carousel-mobile .carousel-caption{
+        max-width: 900px;
+    }
+
+    #carousel-mobile .carousel-indicators{
+        max-width: 900px;
+    }
+
+    .navbar .navbar-nav{
+        background-color: white;
+        padding: 30px 20px;
+    }
+
+    .caixa-branca img{
+        max-height: 400px;
+    }
+
+    .livro-imagem{
+        max-width: 500px !important;;
+    }
+
+    footer hr{
+        border: 1px solid rgb(112, 112, 112);
+        background-color: rgb(112, 112, 112);
+        color: rgb(112, 112, 112);
+    }
+}
+
+@media all and (max-width: 767px){
+    .t1{
+        font-size: 22px;
+    }
+
+}
+
+@media all and (max-width: 575px){
+
+    .titulo{
+        font-size: 25px;
+    }
+}
+
